@@ -16,7 +16,11 @@ If all three say you're away, it quits the apps holding the assertions (FaceTime
 
 Everything runs locally. Audio is never recorded or stored, only the volume level is measured.
 
-## Install
+## Download
+
+Grab `LetYourMacSleep.zip` from [Releases](https://github.com/Retardded/letyourmacsleepwyou/releases), unzip, drag to Applications. The app is not notarized, so on first launch right-click → Open (or run `xattr -dr com.apple.quarantine LetYourMacSleep.app`).
+
+## Build from source
 
 Requires macOS 12+ and Xcode Command Line Tools (`xcode-select --install`).
 
